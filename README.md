@@ -77,7 +77,7 @@
 - 노인 복지, 건강, 지원 정책 등을 카테고리로 구분  
 - 앱 내 웹뷰를 통해 외부 사이트를 직접 열람 가능
 
-📸 _예시 이미지: 외부 사이트 목록, 웹뷰 렌더링 화면_
+<img width="1174" height="623" alt="Image" src="https://github.com/user-attachments/assets/869206c8-3a18-4dec-bedb-a8d6af283fd3" />
 
 ---
 

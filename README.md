@@ -44,7 +44,7 @@
 - 사용자 정보 수정  
 - 정책 정보 사이트 바로가기
 
-<!-- Uploading "스크린샷 2025-07-06 오후 1.13.20.png"... -->ㅍ
+<img width="1165" height="608" alt="Image" src="https://github.com/user-attachments/assets/ced1b578-7d22-43a1-bfdf-12219c7abdac" />
 
 ---
 

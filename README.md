@@ -31,7 +31,7 @@
 - 이메일 기반 로그인 및 계정 생성  
 - 비상 연락처 등록 기능 포함
 
-📸 _예시 이미지: 로그인 페이지, 회원가입 폼, 비상연락처 등록 화면_
+<img width="1162" height="657" alt="Image" src="https://github.com/user-attachments/assets/ede29455-6447-47aa-bd2f-2a664905ec62" />
 
 ---
 

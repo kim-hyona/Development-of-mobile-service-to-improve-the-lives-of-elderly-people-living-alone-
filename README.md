@@ -1,138 +1,126 @@
-# 🧓 실버터치 (SilverTouch)
+#🧓 SilverTouch
 
-> **“노인이 만지는, 노인을 위한 앱”**  
-> 독거노인의 생존 확인과 사회적 고립 해소를 위한 생활 지원 모바일 서비스입니다.
+>“An app for the elderly, touched by the elderly.”
+>A mobile service designed to support independent seniors by confirming their safety and alleviating social isolation.
 
----
 
-## 🧭 개요
+## 🧭 Overview
 
-‘실버터치’는 고령의 1인 가구를 위한 **모바일 헬스 & 커뮤니티 앱**입니다.  
-고령화 사회로의 진입 속도가 빨라지며 독거노인의 수는 꾸준히 증가하고 있지만,  
-여전히 많은 노인들이 **신체 활동 부족, 정보 소외, 사회적 고립** 문제를 겪고 있습니다.  
-이러한 문제를 기술적으로 해결하고자, 실버터치는 **걷기, 모임, 알림, 정보 연결**이라는 네 가지 축을 중심으로 기획되었습니다.
+SilverTouch is a mobile health and community app for elderly individuals living alone.
+As the population ages rapidly, the number of seniors living alone continues to increase.
+However, many still suffer from physical inactivity, lack of information access, and social isolation.
+To address these issues through technology, SilverTouch was designed with four key pillars: Walking, Gathering, Notification, and Information Access.
 
----
+## 🎯 Background and Direction
 
-## 🎯 기획 배경과 방향성
+Survival Check: Detect abnormal behavior using step count and location data, and send alerts to guardians.
+Social Connection: Encourage local interaction and participation through walking meetups.
+Information Accessibility: Provide easy access to government welfare and health policies within the app.
+User-Friendly UI/UX: Simple navigation structure and visually emphasized design tailored to senior users.
+This app goes beyond simple feature implementation — it is designed to genuinely support seniors in their daily lives.
 
-- **생존 확인**: 걸음 수와 위치 데이터를 통해 비정상적인 상태를 감지하고 보호자에게 경고 전송
-- **사회적 연결**: 산책 모임 기능을 통해 지역 내에서 교류 및 활동을 유도
-- **정보 접근성**: 정부 복지·건강 정책 정보를 앱 내에서 쉽게 열람 가능
-- **사용자 친화적 UI/UX**: 고령 사용자를 고려한 단순한 네비게이션 구조와 시각적 강조
+## ⚙️ Key Features
 
-단순한 기능 구현을 넘어, **실제로 노인의 삶에 도움이 되는 앱**을 목표로 설계하였습니다.
+### 1. Login & Signup
+-Email-based account creation and login
+-Emergency contact registration available
 
----
-
-## ⚙️ 주요 기능 소개
-
-### 1. 로그인 및 회원가입  
-- 이메일 기반 로그인 및 계정 생성  
-- 비상 연락처 등록 기능 포함
 
 <img width="1162" height="657" alt="Image" src="https://github.com/user-attachments/assets/ede29455-6447-47aa-bd2f-2a664905ec62" />
 <img width="1134" height="637" alt="Image" src="https://github.com/user-attachments/assets/9bdb27de-9a0a-4df0-b92b-3f0bb741b3b3" />
 ---
 
-### 2. 메인 페이지  
-앱의 허브 역할을 하는 메인화면에서는 아래 기능으로 연결됩니다.
-- 오늘의 걸음 수 표시  
-- 걸음 순위 확인  
-- 산책 모임 일정 확인  
-- 음성 녹음 및 알림 설정  
-- 사용자 정보 수정  
-- 정책 정보 사이트 바로가기
+### 2. Main Page
+The main screen serves as the hub of the app, connecting to the following features:
+
+-Today’s step count display
+-Step count ranking
+-Walking meetup schedules
+-Voice recording and alert settings
+-Edit user profile
+-Direct links to policy information pages
+
 
 <img width="1165" height="608" alt="Image" src="https://github.com/user-attachments/assets/ced1b578-7d22-43a1-bfdf-12219c7abdac" />
 
 ---
 
-### 3. 걸음 수 측정 및 순위 산출  
-- 스마트폰 센서를 활용한 실시간 걸음 수 측정  
-- 사용자 간 **걸음 수 순위** 계산 (보완 예정)
+### 3. Step Counting & Ranking
+-Real-time step tracking using smartphone sensors
+-Ranks users by step count (to be improved)
 
-📸 _예시 이미지: 걸음 수 기록 화면, 순위 출력_
+
+
+
+### 4. Walking Meetup
+-Provides walk schedules based on the user’s location
+-“Join” button to indicate participation
+-View current number of participants
+
+
+
+### 5. Voice Recording & Sound Detection Alert
+-Record and save voice clips directly
+-When a clap sound is detected, the recorded message is played as an alert
+
+
+<img width="1161" height="607" alt="Image" src="https://github.com/user-attachments/assets/d17ceb5c-d456-41ea-97fb-2f26617b4be0" />
+
 
 ---
 
-### 4. 산책 모임 기능  
-- 사용자의 주거지 기반 산책 일정 제공  
-- 참여 버튼을 통해 참석 여부를 기록  
-- 참여 인원 수 확인 가능
-
-📸 _예시 이미지: 산책 모임 목록, 참여 버튼 UI_
-
----
-
-### 5. 음성 녹음 및 소리 감지 알림  
-- 사용자가 직접 음성 녹음 및 저장  
-- **박수 소리 감지 시**, 미리 녹음한 음성이 자동 출력되어 알림 기능 수행
-
-📸 _예시 이미지: 녹음 페이지, 소리 감지 후 알림 예시_
-
----
-
-### 6. 정책 정보 사이트 연결  
-- 노인 복지, 건강, 지원 정책 등을 카테고리로 구분  
-- 앱 내 웹뷰를 통해 외부 사이트를 직접 열람 가능
+### 6. Policy Info Website Links
+-Categorized welfare, health, and support policy info
+-External sites viewable within the app via webview
 
 <img width="1174" height="623" alt="Image" src="https://github.com/user-attachments/assets/869206c8-3a18-4dec-bedb-a8d6af283fd3" />
 
----
-
-## 🔧 사용 기술 및 구현 방식
-
-이 앱은 **Flutter** 프레임워크를 기반으로 개발되었으며, 다음과 같은 기술을 직접 구현에 적용했습니다.
-
-| 기술 | 활용 내용 |
-|------|-----------|
-| Flutter / Dart | 전체 UI 및 로직 구성 |
-| Firebase | 앱 초기화 및 사용자 인증 (firebase_core) |
-| flutter_sound | 오디오 녹음 및 저장 기능 |
-| pedometer | 스마트폰 센서를 통한 걸음 수 감지 |
-| flutter_local_notifications | 박수 소리 감지 시 로컬 알림 출력 |
-| webview_flutter | 외부 복지 정보 페이지 앱 내 표시 |
-| shared_preferences | 사용자 로그인 상태 및 설정 저장 |
-| permission_handler | 위치, 마이크 등 접근 권한 처리 |
 
 
-#🔄 향후 개선 예정 기능
+🔧 Technologies & Implementation
 
-위급 상황 문자 전송:
-오후 6시까지 걸음 수가 낮거나, 밤 10시 이후 사용자가 외출 상태일 경우
-→ 등록된 보호자에게 자동 문자 전송
-휴대폰 찾기 기능:
-박수 소리 등 일정 데시벨 이상의 소리 감지 시
-→ 휴대폰에서 녹음된 음성 출력 및 알림
-걸음 순위 알고리즘 보완:
-현재는 단순 비교 기반 → 거리/시간 기반 정규화 알고리즘 적용 예정
+This app was developed using the Flutter framework, with the following technologies:
 
-### 🔍 주요 코드 예시
+Technology	Description
+Flutter / Dart	Overall UI and logic development
+Firebase	App initialization and user authentication (firebase_core)
+flutter_sound	Voice recording and saving functionality
+pedometer	Step detection via smartphone sensors
+flutter_local_notifications	Local alert triggered by clap sound detection
+webview_flutter	Display external policy info within the app
+shared_preferences	Save login state and user settings
+permission_handler	Handle permission requests (e.g., location, microphone)
+🔄 Planned Features
 
-```dart
-// Firebase 초기화
+Emergency SMS Alerts
+If step count is low by 6 PM, or if the user is outside after 10 PM →
+Send an automatic SMS to registered guardian.
+Find My Phone Feature
+When a sound above a certain decibel is detected (e.g., clapping) →
+Play a recorded voice and send an alert from the device.
+Step Ranking Algorithm Improvement
+Currently based on simple comparison →
+Will apply normalization algorithm based on distance/time.
+🔍 Sample Code Snippets
+// Firebase Initialization
 await Firebase.initializeApp(
   options: DefaultFirebaseOptions.currentPlatform,
 );
 
-// 걸음 수 측정 스트림 수신
+// Step count stream listener
 _pedometer.pedometerStream.listen((event) {
   setState(() {
     _steps = event.steps;
   });
 });
 
-// 녹음 기능 시작
+// Start recording
 await _recorder.startRecorder(toFile: 'audio.aac');
 
-// 소리 감지 후 알림 출력
+// Show alert on sound detection
 await flutterLocalNotificationsPlugin.show(
   0,
-  '알림',
-  '소리가 감지되었습니다!',
+  'Alert',
+  'Sound detected!',
   platformChannelSpecifics,
 );
-
-
-

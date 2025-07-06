@@ -1,4 +1,4 @@
-#🧓 SilverTouch
+# 🧓 SilverTouch
 
 >“An app for the elderly, touched by the elderly.”
 >A mobile service designed to support independent seniors by confirming their safety and alleviating social isolation.
